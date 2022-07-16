@@ -50,14 +50,13 @@ app.post("/register", (request, response) => {
       // save the new user
       user
         .save()
-        // return success if the new user is added to the database successfully
         .then((result) => {
           response.status(201).send({
             message: "User Created Successfully",
             result,
           });
         })
-        // catch erroe if the new user wasn't added successfully to the database
+
         .catch((error) => {
           response.status(500).send({
             message: "Error creating user",
@@ -89,7 +88,7 @@ app.post("/login", (request, response) => {
         .then((passwordCheck) => {
 
           // check if password matches
-          if(!passwordCheck) {
+          if (!passwordCheck) {
             return response.status(400).send({
               message: "Passwords does not match",
               error,

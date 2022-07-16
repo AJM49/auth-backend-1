@@ -13,7 +13,7 @@ I have shown how Authentication can be achieved using nodejs and mongoDB in my s
 
 5. [Hosting a Nodejs and MongoDB App on Heroku](https://dev.to/ebereplenty/hosting-a-nodejs-and-mongodb-app-on-heroku-38b8)
 
-## Dependences
+## Dependencies
 - [Express](https://www.npmjs.com/package/express)
 - [Node](http://nodejs.org/)
 - [DotENV](https://www.npmjs.com/package/dotenv)
@@ -25,7 +25,7 @@ I have shown how Authentication can be achieved using nodejs and mongoDB in my s
 
 
 ## SETTING UP 
-- Clone the repositury to your machine
+- Clone the repository to your machine
 - Open up a terminal
 - Navigate into the project directory
 - Run <code>npm install</code> to install all needed dependencies
